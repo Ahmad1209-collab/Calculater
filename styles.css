@@ -3,7 +3,6 @@ Body {
     padding: 0;
     background: linear-gradient(to left, rgb(207, 81, 81), rgb(93, 93, 201));
     line-height: 0.05;
-    background-color: black;
 }
 
 .calci {
@@ -34,6 +33,18 @@ Body {
     margin-left: 10px;
 }
 .btndesign {
+    width: 190px;
+    height: 150px;
+    padding-top: -1px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: 800px;
+    border-radius: 80px;
+    margin: 1.5px;
+    background-color:white ;
+}
+.Left {
     width: 190px;
     height: 150px;
     padding-top: -1px;
@@ -84,7 +95,448 @@ h1 {
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 700px;
-    font-size: 90px;
-    margin-left: 50%;
+    font-size: 40px;
+    margin-left: 60%;
     margin-top: 500px;
+}
+@media only screen and (min-width: 375px) {
+    body {
+        background: rgb(95, 32, 32);
+    }
+    #display {
+        border: none;
+        background-color: white;
+        border-radius: 30px;
+        width: 340px;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 300px;
+        height: 70px;
+        border: 2px solid white;
+        color: rgb(0, 0, 0);
+        margin-bottom: 30px;
+        margin-left: 35%;
+        margin-top: 100px;
+    }
+    .btndesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 1%;
+        background-color:white ;
+    }
+    .operaterDesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        background-color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 120px;
+        margin: 1.5px;
+        margin-left: 1%;
+        transition: 0.25px;
+        cursor: pointer;
+    }
+    .zero {
+        width: 155px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 300px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        transition: 0.25px;
+        cursor: pointer;
+        background-color: white;
+        margin-top:20px;
+    }
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Noto serif;
+        font-size:50px;
+        margin-left: 50%;
+        margin-right: none;
+        margin-top: 250px;
+        margin-right: -20px;
+        text-align: center;
+        border-color: none;
+    }
+    .Left {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        background-color:white ;
+    }
+}
+@media only screen and (min-width: 412px) {
+    body {
+        background: rgb(95, 32, 32);
+    }
+    #display {
+        border: none;
+        background-color: white;
+        border-radius: 30px;
+        width: 340px;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 300px;
+        height: 70px;
+        border: 2px solid white;
+        color: rgb(0, 0, 0);
+        margin-bottom: 30px;
+        margin-left: 35%;
+        margin-top: 400px;
+    }
+    .btndesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 1%;
+        background-color:white ;
+    }
+    .operaterDesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        background-color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 120px;
+        margin: 1.5px;
+        margin-left: 1%;
+        transition: 0.25px;
+        cursor: pointer;
+    }
+    .zero {
+        width: 155px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 300px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        transition: 0.25px;
+        cursor: pointer;
+        background-color: white;
+        margin-top:20px;
+    }
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Noto serif;
+        font-size: 30px;
+        margin-left: 130px;
+        margin-top: 250px;
+        margin-right: -20px;
+        text-align: center;
+        border-color: none;
+    }
+    .Left {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        background-color:white ;
+    }
+}
+@media only screen and (min-width: 360px) {
+    body {
+        background: rgb(95, 32, 32);
+    }
+    #display {
+        border: none;
+        background-color: white;
+        border-radius: 30px;
+        width: 340px;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 300px;
+        height: 70px;
+        border: 2px solid white;
+        color: rgb(0, 0, 0);
+        margin-bottom: 30px;
+        margin-left: 35%;
+        margin-top: 400px;
+    }
+    .btndesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 1%;
+        background-color:white ;
+    }
+    .operaterDesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        background-color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 120px;
+        margin: 1.5px;
+        margin-left: 1%;
+        transition: 0.25px;
+        cursor: pointer;
+    }
+    .zero {
+        width: 155px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 300px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        transition: 0.25px;
+        cursor: pointer;
+        background-color: white;
+        margin-top:20px;
+    }
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Noto serif;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 250px;
+        margin-right: -20px;
+        text-align: center;
+        border-color: none;
+    }
+    .Left {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        background-color:white ;
+    }
+}
+@media only screen and (min-width: 280px) {
+    body {
+        background: rgb(95, 32, 32);
+    }
+    #display {
+        border: none;
+        background-color: white;
+        border-radius: 30px;
+        width: 340px;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 300px;
+        height: 70px;
+        border: 2px solid white;
+        color: rgb(0, 0, 0);
+        margin-bottom: 30px;
+        margin-left: 35%;
+        margin-top: 900px;
+    }
+    .btndesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 1%;
+        background-color:white ;
+    }
+    .operaterDesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        background-color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 120px;
+        margin: 1.5px;
+        margin-left: 1%;
+        transition: 0.25px;
+        cursor: pointer;
+    }
+    .zero {
+        width: 155px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 300px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        transition: 0.25px;
+        cursor: pointer;
+        background-color: white;
+        margin-top:20px;
+    }
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Noto serif;
+        font-size: 20px;
+        margin-top: 250px;
+        margin-left: 60px;
+        margin-right: -20px;
+        border-color: none;
+        float: left;
+    }
+    .Left {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        background-color:white ;
+    }
+}
+@media only screen and (min-width: 820px) {
+    body {
+        background: rgb(95, 32, 32);
+    }
+    #display {
+        border: none;
+        background-color: white;
+        border-radius: 30px;
+        width: 340px;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 300px;
+        height: 70px;
+        border: 2px solid white;
+        color: rgb(0, 0, 0);
+        margin-bottom: 30px;
+        margin-left: 35%;
+        margin-top: 400px;
+    }
+    .btndesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 1%;
+        background-color:white ;
+    }
+    .operaterDesign {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        background-color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 120px;
+        margin: 1.5px;
+        margin-left: 1%;
+        transition: 0.25px;
+        cursor: pointer;
+    }
+    .zero {
+        width: 155px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 300px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        transition: 0.25px;
+        cursor: pointer;
+        background-color: white;
+        margin-top:20px;
+    }
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Noto serif;
+        font-size: 20px;
+        margin-top: 250px;
+        margin-left: 190px;
+        margin-right: -20px;
+        border-color: none;
+        float: left;
+    }
+    .Left {
+        width: 70px;
+        height: 60px;
+        padding-top: -1px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 800px;
+        border-radius: 80px;
+        margin: 1.5px;
+        margin-left: 35%;
+        background-color:white ;
+    }
 }
